@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="220" viewBox="0 0 1000 220" role="img" aria-labelledby="title desc">
+  <title id="title">OptiMC</title><desc id="desc">Rust and Vulkan Minecraft client</desc>
+  <defs><linearGradient id="g" x2="0" y2="1"><stop stop-color="#74e1b7"/><stop offset="1" stop-color="#39a9ca"/></linearGradient></defs>
+  <rect width="1000" height="220" rx="20" fill="#111923"/>
+  <g transform="translate(58 47)" fill="none" stroke="url(#g)" stroke-width="8" stroke-linejoin="round"><path d="m60 0 60 34v66l-60 34L0 100V34Z"/><path d="m0 34 60 34 60-34M60 68v66"/></g>
+  <text x="228" y="142" fill="#edf4fc" font-family="Verdana,DejaVu Sans,sans-serif" font-size="100" font-weight="700" letter-spacing="-5">Opti<tspan fill="#74e1b7">MC</tspan></text>
+  <text x="235" y="180" fill="#a7b8ca" font-family="Verdana,DejaVu Sans,sans-serif" font-size="18" letter-spacing="5">RUST · VULKAN · CLIENT</text>
+</svg>

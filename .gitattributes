@@ -1,0 +1,9 @@
+* text=auto
+*.rs text eol=lf
+*.wgsl text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+*.svg text eol=lf
+*.gz binary
+*.bin binary

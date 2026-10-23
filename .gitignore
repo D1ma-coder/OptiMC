@@ -1,0 +1,17 @@
+/target/
+/.cache/
+*.log
+.DS_Store
+/logs/
+/dist/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.jar
+*.class
+*.app/
+*.dSYM/
+__pycache__/
+*.py[cod]

@@ -1,0 +1,558 @@
+{
+  "version": "26.2",
+  "protocol": 776,
+  "source": "net.minecraft.client.Options from verified client.jar via javap -c -p",
+  "scope": "Inventory only; presence here does not mean implemented. Integrated-server/world settings are excluded from planned client UI.",
+  "option_instance_fields": [
+    {
+      "field": "darkMojangStudiosBackground",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "hideLightningFlash",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "hideSplashTexts",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "sensitivity",
+      "java_type": "java.lang.Double"
+    },
+    {
+      "field": "renderDistance",
+      "java_type": "java.lang.Integer"
+    },
+    {
+      "field": "simulationDistance",
+      "java_type": "java.lang.Integer"
+    },
+    {
+      "field": "entityDistanceScaling",
+      "java_type": "java.lang.Double"
+    },
+    {
+      "field": "framerateLimit",
+      "java_type": "java.lang.Integer"
+    },
+    {
+      "field": "preferredGraphicsBackend",
+      "java_type": "net.minecraft.client.PreferredGraphicsApi"
+    },
+    {
+      "field": "graphicsPreset",
+      "java_type": "net.minecraft.client.GraphicsPreset"
+    },
+    {
+      "field": "inactivityFpsLimit",
+      "java_type": "net.minecraft.client.InactivityFpsLimit"
+    },
+    {
+      "field": "cloudStatus",
+      "java_type": "net.minecraft.client.CloudStatus"
+    },
+    {
+      "field": "cloudRange",
+      "java_type": "java.lang.Integer"
+    },
+    {
+      "field": "weatherRadius",
+      "java_type": "java.lang.Integer"
+    },
+    {
+      "field": "cutoutLeaves",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "vignette",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "improvedTransparency",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "ambientOcclusion",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "chunkSectionFadeInTime",
+      "java_type": "java.lang.Double"
+    },
+    {
+      "field": "prioritizeChunkUpdates",
+      "java_type": "net.minecraft.client.PrioritizeChunkUpdates"
+    },
+    {
+      "field": "chatVisibility",
+      "java_type": "net.minecraft.world.entity.player.ChatVisiblity"
+    },
+    {
+      "field": "chatOpacity",
+      "java_type": "java.lang.Double"
+    },
+    {
+      "field": "chatLineSpacing",
+      "java_type": "java.lang.Double"
+    },
+    {
+      "field": "menuBackgroundBlurriness",
+      "java_type": "java.lang.Integer"
+    },
+    {
+      "field": "textBackgroundOpacity",
+      "java_type": "java.lang.Double"
+    },
+    {
+      "field": "panoramaSpeed",
+      "java_type": "java.lang.Double"
+    },
+    {
+      "field": "highContrast",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "highContrastBlockOutline",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "narratorHotkey",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "mainHand",
+      "java_type": "net.minecraft.world.entity.HumanoidArm"
+    },
+    {
+      "field": "chatScale",
+      "java_type": "java.lang.Double"
+    },
+    {
+      "field": "chatWidth",
+      "java_type": "java.lang.Double"
+    },
+    {
+      "field": "chatHeightUnfocused",
+      "java_type": "java.lang.Double"
+    },
+    {
+      "field": "chatHeightFocused",
+      "java_type": "java.lang.Double"
+    },
+    {
+      "field": "chatDelay",
+      "java_type": "java.lang.Double"
+    },
+    {
+      "field": "notificationDisplayTime",
+      "java_type": "java.lang.Double"
+    },
+    {
+      "field": "mipmapLevels",
+      "java_type": "java.lang.Integer"
+    },
+    {
+      "field": "maxAnisotropyBit",
+      "java_type": "java.lang.Integer"
+    },
+    {
+      "field": "textureFiltering",
+      "java_type": "net.minecraft.client.TextureFilteringMethod"
+    },
+    {
+      "field": "attackIndicator",
+      "java_type": "net.minecraft.client.AttackIndicatorStatus"
+    },
+    {
+      "field": "biomeBlendRadius",
+      "java_type": "java.lang.Integer"
+    },
+    {
+      "field": "mouseWheelSensitivity",
+      "java_type": "java.lang.Double"
+    },
+    {
+      "field": "rawMouseInput",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "allowCursorChanges",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "autoJump",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "rotateWithMinecart",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "operatorItemsTab",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "autoSuggestions",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "chatColors",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "chatLinks",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "chatLinksPrompt",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "enableVsync",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "entityShadows",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "forceUnicodeFont",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "japaneseGlyphVariants",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "invertXMouse",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "invertYMouse",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "discreteMouseScroll",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "realmsNotifications",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "allowServerListing",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "reducedDebugInfo",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "inGameNotification",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "sharePresence",
+      "java_type": "net.minecraft.client.PresenceSharing"
+    },
+    {
+      "field": "showSubtitles",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "directionalAudio",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "backgroundForChatOnly",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "fullscreen",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "exclusiveFullscreen",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "bobView",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "toggleCrouch",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "toggleSprint",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "toggleAttack",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "toggleUse",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "sprintWindow",
+      "java_type": "java.lang.Integer"
+    },
+    {
+      "field": "hideMatchedNames",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "showAutosaveIndicator",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "onlyShowSecureChat",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "saveChatDrafts",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "fov",
+      "java_type": "java.lang.Integer"
+    },
+    {
+      "field": "telemetryOptInExtra",
+      "java_type": "java.lang.Boolean"
+    },
+    {
+      "field": "screenEffectScale",
+      "java_type": "java.lang.Double"
+    },
+    {
+      "field": "fovEffectScale",
+      "java_type": "java.lang.Double"
+    },
+    {
+      "field": "darknessEffectScale",
+      "java_type": "java.lang.Double"
+    },
+    {
+      "field": "glintSpeed",
+      "java_type": "java.lang.Double"
+    },
+    {
+      "field": "glintStrength",
+      "java_type": "java.lang.Double"
+    },
+    {
+      "field": "damageTiltStrength",
+      "java_type": "java.lang.Double"
+    },
+    {
+      "field": "gamma",
+      "java_type": "java.lang.Double"
+    },
+    {
+      "field": "guiScale",
+      "java_type": "java.lang.Integer"
+    },
+    {
+      "field": "particles",
+      "java_type": "net.minecraft.server.level.ParticleStatus"
+    },
+    {
+      "field": "narrator",
+      "java_type": "net.minecraft.client.NarratorStatus"
+    },
+    {
+      "field": "soundDevice",
+      "java_type": "java.lang.String"
+    },
+    {
+      "field": "musicFrequency",
+      "java_type": "net.minecraft.client.sounds.MusicManager$MusicFrequency"
+    },
+    {
+      "field": "musicToast",
+      "java_type": "net.minecraft.client.MusicToastDisplayState"
+    }
+  ],
+  "translation_keys": [
+    "options.accessibility.high_contrast",
+    "options.accessibility.high_contrast.tooltip",
+    "options.accessibility.high_contrast_block_outline",
+    "options.accessibility.high_contrast_block_outline.tooltip",
+    "options.accessibility.menu_background_blurriness",
+    "options.accessibility.menu_background_blurriness.tooltip",
+    "options.accessibility.narrator_hotkey",
+    "options.accessibility.narrator_hotkey.mac.tooltip",
+    "options.accessibility.narrator_hotkey.tooltip",
+    "options.accessibility.panorama_speed",
+    "options.accessibility.text_background",
+    "options.accessibility.text_background.chat",
+    "options.accessibility.text_background.everywhere",
+    "options.accessibility.text_background_opacity",
+    "options.allowCursorChanges",
+    "options.allowCursorChanges.tooltip",
+    "options.allowServerListing",
+    "options.allowServerListing.tooltip",
+    "options.ao",
+    "options.attackIndicator",
+    "options.audioDevice",
+    "options.audioDevice.default",
+    "options.autoJump",
+    "options.autoSuggestCommands",
+    "options.autosaveIndicator",
+    "options.biomeBlendRadius",
+    "options.blocks",
+    "options.chat.color",
+    "options.chat.delay",
+    "options.chat.delay_instant",
+    "options.chat.delay_none",
+    "options.chat.drafts",
+    "options.chat.drafts.tooltip",
+    "options.chat.height.focused",
+    "options.chat.height.unfocused",
+    "options.chat.line_spacing",
+    "options.chat.links",
+    "options.chat.links.prompt",
+    "options.chat.opacity",
+    "options.chat.scale",
+    "options.chat.visibility",
+    "options.chat.width",
+    "options.chunkFade",
+    "options.chunkFade.none",
+    "options.chunkFade.seconds",
+    "options.chunkFade.tooltip",
+    "options.chunks",
+    "options.cutoutLeaves",
+    "options.cutoutLeaves.tooltip",
+    "options.damageTiltStrength",
+    "options.damageTiltStrength.tooltip",
+    "options.darkMojangStudiosBackgroundColor",
+    "options.darkMojangStudiosBackgroundColor.tooltip",
+    "options.darknessEffectScale",
+    "options.darknessEffectScale.tooltip",
+    "options.directionalAudio",
+    "options.directionalAudio.off.tooltip",
+    "options.directionalAudio.on.tooltip",
+    "options.discrete_mouse_scroll",
+    "options.entityDistanceScaling",
+    "options.entityShadows",
+    "options.exclusiveFullscreen",
+    "options.exclusiveFullscreen.off.tooltip",
+    "options.exclusiveFullscreen.on.tooltip",
+    "options.forceUnicodeFont",
+    "options.fov",
+    "options.fov.max",
+    "options.fov.min",
+    "options.fovEffectScale",
+    "options.fovEffectScale.tooltip",
+    "options.framerate",
+    "options.framerateLimit",
+    "options.framerateLimit.max",
+    "options.fullscreen",
+    "options.gamma",
+    "options.gamma.default",
+    "options.gamma.max",
+    "options.gamma.min",
+    "options.generic_value",
+    "options.glintSpeed",
+    "options.glintSpeed.tooltip",
+    "options.glintStrength",
+    "options.glintStrength.tooltip",
+    "options.graphics.preset",
+    "options.graphics.preset.tooltip",
+    "options.graphicsApi",
+    "options.graphicsApi.tooltip",
+    "options.graphicsApi.tooltip.vulkan",
+    "options.guiScale",
+    "options.guiScale.auto",
+    "options.hideLightningFlashes",
+    "options.hideLightningFlashes.tooltip",
+    "options.hideMatchedNames",
+    "options.hideMatchedNames.tooltip",
+    "options.hideSplashTexts",
+    "options.hideSplashTexts.tooltip",
+    "options.improvedTransparency",
+    "options.improvedTransparency.tooltip",
+    "options.inGameNotification",
+    "options.inGameNotification.tooltip",
+    "options.inactivityFpsLimit",
+    "options.inactivityFpsLimit.afk.tooltip",
+    "options.inactivityFpsLimit.minimized.tooltip",
+    "options.invertMouseX",
+    "options.invertMouseY",
+    "options.japaneseGlyphVariants",
+    "options.japaneseGlyphVariants.tooltip",
+    "options.key.hold",
+    "options.key.toggle",
+    "options.mainHand",
+    "options.maxAnisotropy",
+    "options.maxAnisotropy.tooltip",
+    "options.mipmapLevels",
+    "options.mouseWheelSensitivity",
+    "options.multiplier",
+    "options.musicToast",
+    "options.music_frequency",
+    "options.music_frequency.tooltip",
+    "options.narrator",
+    "options.narrator.notavailable",
+    "options.needsRestart",
+    "options.notifications.display_time",
+    "options.notifications.display_time.tooltip",
+    "options.off",
+    "options.onlyShowSecureChat",
+    "options.onlyShowSecureChat.tooltip",
+    "options.operatorItemsTab",
+    "options.particles",
+    "options.percent_value",
+    "options.pixel_value",
+    "options.prioritizeChunkUpdates",
+    "options.prioritizeChunkUpdates.byPlayer.tooltip",
+    "options.prioritizeChunkUpdates.nearby.tooltip",
+    "options.prioritizeChunkUpdates.none.tooltip",
+    "options.rawMouseInput",
+    "options.realmsNotifications.button",
+    "options.realmsNotifications.tooltip",
+    "options.reducedDebugInfo",
+    "options.renderClouds",
+    "options.renderCloudsDistance",
+    "options.renderDistance",
+    "options.rotateWithMinecart",
+    "options.rotateWithMinecart.tooltip",
+    "options.screenEffectScale",
+    "options.screenEffectScale.tooltip",
+    "options.sensitivity",
+    "options.sensitivity.max",
+    "options.sensitivity.min",
+    "options.sharePresence",
+    "options.showSubtitles",
+    "options.showSubtitles.tooltip",
+    "options.simulationDistance",
+    "options.sprintWindow",
+    "options.sprintWindow.tooltip",
+    "options.telemetry.button",
+    "options.telemetry.button.tooltip",
+    "options.telemetry.state.all",
+    "options.telemetry.state.minimal",
+    "options.telemetry.state.none",
+    "options.textureFiltering",
+    "options.textureFiltering.anisotropic.tooltip",
+    "options.textureFiltering.none.tooltip",
+    "options.textureFiltering.rgss.tooltip",
+    "options.txt",
+    "options.value",
+    "options.viewBobbing",
+    "options.vignette",
+    "options.vignette.tooltip",
+    "options.vsync",
+    "options.weatherRadius",
+    "options.weatherRadius.tooltip"
+  ],
+  "bytecode_reference": ".cache/protocol-audit/options.txt",
+  "screens_reference": [
+    ".cache/protocol-audit/options-screen.txt",
+    ".cache/protocol-audit/video-options-screen.txt"
+  ]
+}
